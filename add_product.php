@@ -3,27 +3,7 @@
 
 <head>
 <script>
-function expand(p1,p2) {
 
- var p1= document.getElementById(p1);
- var p2= document.getElementById(p2);
- if (p1.value == "select") {
-    document.getElementById("add").innerHTML = "";
-    return false;
-  }
-  if (p1.value == "dvd") {
-    document.getElementById("add").innerHTML = "this is dvd";
-    return false;
-  }
-  if (p1.value == "book") {
-    document.getElementById("add").innerHTML = "New text!////book";
-    return false;
-  }
-  if (p1.value == "furn") {
-    document.getElementById("add").innerHTML = "<label for='fname'>Size</label><input type='text' id='fname' name='sku'>";
-    return false;
-  }
-}
 </script>
 
 </head>
